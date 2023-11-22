@@ -1,0 +1,111 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #8F78C7;
+    color: #0A2239;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    
+}
+.contenedor{
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+h1{
+    
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #0A2239;
+
+}
+.aplicacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.contenedor-tareas{
+    flex: 1;
+    background-color: rgba(155, 190, 199, 0.575);
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.658);
+    margin-bottom: 40px;
+}
+
+.contenedor-temporizador{
+    flex: 1;
+    background-color: rgba(155, 190, 199, 0.575);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.788);
+    margin-bottom: 40px;
+}
+
+#lista-tareas{
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+#lista-tareas li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: rgba(143,120,199,1.000);
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#lista-tareas li.completada{
+    text-decoration: line-through;
+    background-color: rgba(152,125,124,1.000);
+
+}
+#formulario-tareas{
+    display: flex;
+    margin-top: 10px;
+
+}
+#nueva-tarea{
+    flex: 1;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#nueva-tarea::placeholder{
+    color: #0A2239;
+}
+#formulario-tareas button{
+    background-color:#987d7c;
+    color: #0A2239;
+    border: none;
+    padding: 8px 16px;
+    margin-left: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+}
+#formulario-tareas button:hover{
+    background-color: #0A2239;
+    
+}
+.regresar li a{
+    padding-bottom: 20px;
+    text-decoration: dashed;
+    background-color:#0A2239;
+    padding: 15px;
+    border-radius: 12px;
+	color: rgb(143,120,199);
+	font-weight: bolder;
+	font-size: xx-large;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

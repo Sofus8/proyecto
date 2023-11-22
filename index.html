@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">"
+    <title>Proyecto FLDSMDFR</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+  emailjs.init('ZhdYuLbcNLp2xAl6T')
+</script>
+</head>
+<body>
+
+    <header>
+        <img class="logoem" src="./Imagenes/queso.jpeg" alt="">
+        <button class="menu-abierto" id="abrir"><i class="bi bi-list"></i></button>
+
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i>
+            </button>
+            <ul class="nav-lista">
+                <li><a class="" href="Pomodoro.html">Pomodoro</a></li>
+                <li><a class="" href="aportes.html">Aportes</a></li>
+                <li><a class="" href="musica.html">Música</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   
+    <section class="home" id="home">
+        <div class="container">
+            <h2 class="subtitle">Material de ayuda estudiantil</h2>
+            <div class="container-table">
+                <div class="card-container">
+                    <div class="contenido">
+                        <figure>
+                            <img class="khan" src="./Imagenes/Khan academy.png" alt="logo khan academy">
+                        </figure>
+                        <h2>Cursos gratuitos</h2>
+                        <h3>Khan academy</h3>
+                        <p>Khan academy es un sitio de aprendizaje que da lecciones gratuitas desde la enseñanza de matemáticas básicas hasta materias específicas como economía o inicios de computación.</p>
+                        <a class="bot" href="https://es.khanacademy.org">Acceso a la página</a>
+                        
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="contenido">
+                        <figure>
+                            <img class="dgb" src="./Imagenes/dgb.png" alt="dgb logo">
+                        </figure>
+                        <h2>Biblioteca digital UNAM</h2>
+                        <h3>Tesis y material bibliográfico confiable</h3>
+                        <p>Compendio oficial de la Universidad Nacional Autónoma de México, en el cual se incluyen tesis referentes a temas que pueden ser usados para investigaciones</p>
+                        <a class="bot" href="https://www.dgb.unam.mx">Acceso a la página</a>
+                    </div>
+                </div> <div class="card-container">
+                    <div class="contenido">
+                        <figure>
+                            <img class="lingualia" src="./Imagenes/lingualia.png" alt="">
+                        </figure>
+                        <h2>Lingualia</h2>
+                        <h3>Cursos de indiomas gratuitos</h3>
+                        <p>Idiomas y repaso de los mismos completamente gratuitos, hay distintos planes de estudio y ritmos de estudio para inglés</p>
+                        <a class="bot" href="https://www.lingualia.com">Acceso a la página</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <section class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO Y APORTES</h2>
+            <div class="fila">
+                <div class="col">
+                    <form id="form">
+                        <div class="field">
+                            <label for="for_name">Nombre:</label>
+                            <input type="text" name="from_name" id="from_name">
+                        </div>
+                        <div class="field">
+                            <label for="message">Mensaje:</label>
+                            <input type="text" name="message" id="message">
+                        </div>
+                        <div class="field">
+                            <label for="email_id">Email: </label>
+                            <input type="text" name="email_id" id="email_id">
+                        </div>
+                        <button type="submit" id="button" value="Send Email">
+                            Enviar Mensaje<i class="bi bi-send"></i>
+                            <span class="overlay"></span>
+
+                        </button>
+                    </form>
+
+                </div>
+                <div class="col">
+                    <div class="info">
+                        <h2>ÁNIMO</h2>
+                        <p>Escribir en el asunto si es una queja, un aporte u opinión, gracias :D</p>
+                    </div>
+                </div>
+
+            </div> 
+
+        </div>
+
+    </section>
+    <script src="./java/funciones.js"></script>
+</body>
+</html>

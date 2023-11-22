@@ -1,0 +1,30 @@
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #0A2239;
+    color: #8F78C7;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.aviso{
+    background-color: #0A2239;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #8F78C7;
+    
+}
+.aportar {
+    margin-top: 30px;
+    text-align: center;
+    max-width: 800px;
+}
+.botap{
+    color: #987d7c;
+    background-color: #0A2239;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20rem;
+    margin-top: 40px;
+    width: fit-content;
+}

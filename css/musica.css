@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contenido{
+	background-color: rgb(155,190,199);
+	text-align: center;
+	border-radius: 10px;
+	width: 350px;
+	padding: 40;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.playlist{
+	max-width: 15rem;
+	max-height: 15rem;
+	border-radius: 2rem;
+	align-items: center;
+}
+.mus{
+	margin-top: 20px;
+    text-decoration: dashed;
+    background-color:#0A2239;
+    padding: 15px;
+    border-radius: 12px;
+	color: rgb(143,120,199);
+	font-weight: bolder;
+	font-size: large;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container, .card-container, .contenido{
+	align-items:center;
+	margin: auto;
+}
+
+body{
+	align-items: center;
+}
